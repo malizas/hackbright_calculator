@@ -37,3 +37,12 @@ def power(num1, num2):
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     return(num1 % num2)
+
+def xplus(num1, num2, num3):
+    #add first two numbers and multiply  by third
+    return((num1 + num2)* num3)
+
+def cubesplus(num1, num2):
+    c1 = num1 ^3
+    c2 = num2 ^3
+    return(c1 + c2)
